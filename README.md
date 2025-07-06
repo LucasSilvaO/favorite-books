@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 BookFinder
 
-## Getting Started
+Aplicação web para busca e visualização de livros utilizando a API do Google Books. Desenvolvido com **Next.js** e **TypeScript**, o projeto oferece uma interface moderna, responsiva e com a funcionalidade de favoritar livros.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tecnologias Utilizadas
+
+- **[Next.js](https://nextjs.org/)** – Framework React com suporte a Server-Side Rendering (SSR) e rotas otimizadas.
+- **TypeScript** – Tipagem estática para maior segurança e escalabilidade.
+- **Google Books API** – Consulta e recuperação de dados de livros.
+- **Vercel** – Deploy contínuo e hospedagem da aplicação.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 🔎 Busca de livros por título, autor ou palavra-chave
+- 📖 Exibição de resultados em cards com:
+  - Capa
+  - Título
+  - Autor
+  - Trecho da descrição
+- ⭐ Sistema de favoritos com persistência local (localStorage)
+- 🧾 Página de detalhes com informações completas do livro
+- 📱 Interface moderna e responsiva
+
+---
+
+## 🧩 Como Rodar Localmente
+
+1. Clone o repositório:
+```
+git clone https://github.com/seu-usuario/bookfinder.git
+cd bookfinder
+```
+2. Instale as dependências:
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Rode o projeto localmente:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
+Acesse em http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌐 Deploy
+A aplicação está disponível publicamente via Vercel:
 
-## Learn More
+🔗 https://bookfinder.vercel.app
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
