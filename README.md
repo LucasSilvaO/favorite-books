@@ -49,5 +49,5 @@ Acesse em http://localhost:3000
 🌐 Deploy
 A aplicação está disponível publicamente via Vercel:
 
-🔗 https://bookfinder.vercel.app
+🔗 https://favorite-books-orcin.vercel.app/
 
